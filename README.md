@@ -40,6 +40,7 @@ lib/core/
 |- providers/ - Your providers for state management
 |- services/ - Your network services and etc. goes here
 |- theme/ - Here goes the ThemeData that you use at start in materialapp or cupertinoapp
+|- coreshelf.dart - Inside the folders there are shelf files these are for exporting files so when you call them in views you can just import once and you have access to them all
 
 ```
 
