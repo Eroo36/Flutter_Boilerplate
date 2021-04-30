@@ -27,6 +27,33 @@
 
 This is a flutter boilerplate for future projects.
 
+Here is the folder structure we have been using in this project
+
+```
+
+lib/core/
+|- constants/ -  All the application level constants are defined in this directory with-in their respective files. For example enums for localkeys or navigation names
+|- decorations/ - Contains custom decorations like InputDecoration
+|- dummy/ - In case you require some dummy data you can use here
+|- exception/ - Error exception messages
+|- extensions/ - In case you require more functionality wih existing classes you can add extensions to them in here
+|- init/ - Configurations goes here like language, sharedpreferences or navigation
+|- models/ - Contains the models layer of the project.
+|- providers/ - Your providers for state management
+|- services/ - Your network services and etc. goes here
+|- theme/ - Here goes the ThemeData that you use at start in materialapp or cupertinoapp
+
+```
+
+```
+
+lib/views/
+|- widgets/ - Here goes the widgets that you are planning to use in multiple places in your app
+|- viewname(login_screen for ex.) - You create new folders here for your pages and inside them you can also create another folder called widgets in case you have widgets specifically for this page
+
+```
+
+
 
 ### Prerequisites
 
